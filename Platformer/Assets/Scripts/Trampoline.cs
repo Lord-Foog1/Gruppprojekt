@@ -16,4 +16,6 @@ public class Trampoline : MonoBehaviour
             GetComponent<Animator>().SetTrigger("Jump");
         }
     }
+
+    //Add The Mushroom Trampoline Code
 }
