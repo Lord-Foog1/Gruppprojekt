@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - EnemyBlock
+  - Enemy
+  - Collectable
+  - Health
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Enemy
+  - EnemyBlock
+  - Player
+  - Platform
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background 5
+    uniqueID: 1918074265
+    locked: 0
+  - name: Background 4
+    uniqueID: 3175811087
+    locked: 0
+  - name: Background 3
+    uniqueID: 3935396885
+    locked: 0
+  - name: Background 2
+    uniqueID: 4231473799
+    locked: 0
+  - name: Background 1
+    uniqueID: 3490389551
+    locked: 0
+  - name: Background
+    uniqueID: 2716640127
+    locked: 0
+  - name: Foliage
+    uniqueID: 3996524507
+    locked: 0
+  - name: Background_Items
+    uniqueID: 1662483485
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1537931229
+    locked: 0
