@@ -18,4 +18,5 @@ public class Trampoline : MonoBehaviour
     }
 
     //Add The Mushroom Trampoline Code
+    //super cool
 }
