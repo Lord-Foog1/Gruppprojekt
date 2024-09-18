@@ -9,6 +9,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float smoothing = 1.0f;
 
     // Update is called once per frame
+    //super cool comment
     void LateUpdate()
     {
         Vector3 newPosition = Vector3.Lerp(transform.position, target.position + offset, smoothing * Time.deltaTime);
