@@ -26,6 +26,7 @@ public class QuestChecker : MonoBehaviour
             {
                 dialogueBox.SetActive(true);
                 finishedText.SetActive(true);
+                LevelsCompleted.levelsCompleted++;
                 anim.SetTrigger("Flag");
                 Invoke("LoadNextLevel", 4.0f);
                 levelIsLoading = true;
