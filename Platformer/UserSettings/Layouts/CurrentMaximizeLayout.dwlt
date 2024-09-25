@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 7015
+  controlID: 730
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 7016
+  controlID: 731
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 6972
+  controlID: 687
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -240,9 +240,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ee220000
       m_LastClickedID: 0
-      m_ExpandedIDs: b6d4ffff04d6ffff3ee6fffface7ffff24e8ffffd2eaffff94efffff24f1ffffacf3ffff7cf4ffff4af6ffffe2f7ffffa6f9ffff1afbffffbe7600000a7700005e7700006a7a00001885000068860000a0880000c08900005a9d0000
+      m_ExpandedIDs: 66f8ffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -723,9 +723,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 236.64236, y: 154.08269, z: 0.9657992}
+    m_Target: {x: 263.99277, y: 91.20654, z: -1.5685493}
     speed: 2
-    m_Value: {x: 236.64236, y: 154.08269, z: 0.9657992}
+    m_Value: {x: 263.99277, y: 91.20654, z: -1.5685493}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -775,9 +775,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 180.49438
+    m_Target: 220.56775
     speed: 2
-    m_Value: 180.49438
+    m_Value: 220.56775
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 7017
+  controlID: 732
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -1101,14 +1101,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\SkapadeSpel\Platformer
+  m_LastProjectPath: C:\Users\olive\Documents\GitHub\Gruppprojekt\Platformer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 34.700623}
-    m_SelectedIDs: c6670000
-    m_LastClickedID: 26566
-    m_ExpandedIDs: 000000006466000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 131.7992}
+    m_SelectedIDs: b06a0000
+    m_LastClickedID: 27312
+    m_ExpandedIDs: 000000006a6900006c6900006e690000706900007269000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1136,7 +1136,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006466000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000006a6900006c6900006e690000706900007269000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1161,10 +1161,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b6d4ffff
-    m_LastClickedInstanceID: -11082
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300003c680000fa670000946200005c6d0000a0620000cca800002a6b00002e6b00007266000094bd0000eca00100c0620000
+    m_SelectedInstanceIDs: ee220000
+    m_LastClickedInstanceID: 8942
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300003c680000fa670000946200005c6d0000a0620000cca800002a6b00002e6b00007266000094bd0000eca00100c06200003ab9000016740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 151
+    m_CachedPref: 550.2001
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1

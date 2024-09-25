@@ -11,6 +11,7 @@ public class QuestChecker : MonoBehaviour
 
     private Animator anim;
     private bool levelIsLoading = false;
+    private bool levelIsComplete = false;
 
     private void Start()
     {
@@ -26,7 +27,11 @@ public class QuestChecker : MonoBehaviour
             {
                 dialogueBox.SetActive(true);
                 finishedText.SetActive(true);
-                LevelsCompleted.levelsCompleted++;
+                if(!levelIsComplete)
+                {
+                    PlayerMovement.levelsCompleted++;
+                    levelIsComplete = true;
+                }
                 anim.SetTrigger("Flag");
                 Invoke("LoadNextLevel", 4.0f);
                 levelIsLoading = true;
