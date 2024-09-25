@@ -29,7 +29,8 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     private Animator anim;
     private AudioSource audioSource;
-    
+    public static int levelsCompleted = 0;
+
 
     // Start is called before the first frame update
     // henry was here
@@ -60,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && CheckIfGrounded() == true)
         {
             Jump();
+            print(levelsCompleted);
         }
 
         anim.SetFloat("MoveSpeed", Mathf.Abs(rgbd.velocity.x));
