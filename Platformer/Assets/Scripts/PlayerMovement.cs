@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && CheckIfGrounded() == true)
         {
             Jump();
-            print(levelsCompleted);
+            //print(levelsCompleted);
         }
 
         anim.SetFloat("MoveSpeed", Mathf.Abs(rgbd.velocity.x));
