@@ -12,6 +12,7 @@ public class LevelChecker : MonoBehaviour
     private Animator anim;
     private bool levelIsLoading = false;
     private bool levelIsComplete = false;
+    private bool accepted = false;
 
     private void Start()
     {
@@ -26,15 +27,9 @@ public class LevelChecker : MonoBehaviour
         {
             if(PlayerMovement.levelsCompleted >= requierment)
             {
-                //Kod för att spela animationen till dörren
                 dialogueBox.SetActive(true);
                 finishedText.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    anim.SetTrigger("Flag");
-                    Invoke("LoadNextLevel", 4.0f);
-                    levelIsLoading = true;
-                }       
+                accepted = true;
             }
             else
             {
@@ -56,6 +51,18 @@ public class LevelChecker : MonoBehaviour
             dialogueBox.SetActive(false);
             finishedText.SetActive(false);
             UnfinishedText.SetActive(false);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if(accepted)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Invoke("LoadNextLevel", 1.0f);
+                levelIsLoading = true;
+            }
         }
     }
 }
