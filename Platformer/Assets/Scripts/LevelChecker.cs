@@ -27,9 +27,14 @@ public class LevelChecker : MonoBehaviour
             if(PlayerMovement.levelsCompleted >= requierment)
             {
                 //Kod för att spela animationen till dörren
-                anim.SetTrigger("Flag");
-                Invoke("LoadNextLevel", 4.0f);
-                levelIsLoading = true;
+                dialogueBox.SetActive(true);
+                finishedText.SetActive(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    anim.SetTrigger("Flag");
+                    Invoke("LoadNextLevel", 4.0f);
+                    levelIsLoading = true;
+                }       
             }
             else
             {

@@ -8,6 +8,7 @@ public class QuestChecker : MonoBehaviour
     [SerializeField] private GameObject dialogueBox, finishedText, UnfinishedText;
     [SerializeField] private int questGoal = 20;
     [SerializeField] private int levelToLoad;
+    [SerializeField] private int levelDone;
 
     private Animator anim;
     private bool levelIsLoading = false;
@@ -29,7 +30,7 @@ public class QuestChecker : MonoBehaviour
                 finishedText.SetActive(true);
                 if(!levelIsComplete)
                 {
-                    PlayerMovement.levelsCompleted++;
+                    PlayerMovement.levelsCompleted = levelDone;
                     levelIsComplete = true;
                 }
                 anim.SetTrigger("Flag");
