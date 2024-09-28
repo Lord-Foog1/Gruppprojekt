@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 498087760}
   - component: {fileID: 498087759}
   m_Layer: 5
-  m_Name: Button_Credits
+  m_Name: Button_Hub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,7 +402,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 236036924}
         m_TargetAssemblyTypeName: MenuControler, Assembly-CSharp
-        m_MethodName: ShowCredits
+        m_MethodName: HubLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -582,7 +582,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: START
+  m_text: Next Level
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
   m_sharedMaterial: {fileID: -4935591840518089945, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
@@ -609,12 +609,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 40
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMin: 16.8
+  m_fontSizeMax: 40
   m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -934,7 +934,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -100}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1266381392
 MonoBehaviour:
@@ -956,7 +956,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE game
+  m_text: 'Congratulations!
+
+    You finished a level'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
   m_sharedMaterial: {fileID: -4935591840518089945, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
@@ -983,7 +985,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.8
+  m_fontSize: 47.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1226,7 +1228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: quit
+  m_text: Quit to main menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
   m_sharedMaterial: {fileID: -4935591840518089945, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
@@ -1253,12 +1255,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 30
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 30
   m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1791,7 +1793,7 @@ GameObject:
   - component: {fileID: 1846074162}
   - component: {fileID: 1846074161}
   m_Layer: 5
-  m_Name: Button_Start
+  m_Name: Button_Next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1863,7 +1865,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 236036924}
         m_TargetAssemblyTypeName: MenuControler, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: NextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1924,7 +1926,7 @@ GameObject:
   - component: {fileID: 1867540693}
   - component: {fileID: 1867540692}
   m_Layer: 5
-  m_Name: Button_Quit
+  m_Name: Button_Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1996,7 +1998,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 236036924}
         m_TargetAssemblyTypeName: MenuControler, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2101,7 +2103,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: credits
+  m_text: To HUb
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
   m_sharedMaterial: {fileID: -4935591840518089945, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}

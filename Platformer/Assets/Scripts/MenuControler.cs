@@ -9,7 +9,7 @@ public class MenuControler : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void QuitGame()
@@ -25,5 +25,20 @@ public class MenuControler : MonoBehaviour
     public void CloseCredits()
     {
         creditsPanel.SetActive(false);
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(PlayerMovement.levelsCompleted + 2);
+    }
+
+    public void HubLevel()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
