@@ -30,7 +30,10 @@ public class QuestChecker : MonoBehaviour
                 finishedText.SetActive(true);
                 if(!levelIsComplete)
                 {
-                    PlayerMovement.levelsCompleted = levelDone;
+                    if(PlayerMovement.levelsCompleted < levelDone)
+                    {
+                        PlayerMovement.levelsCompleted = levelDone;
+                    }
                     levelIsComplete = true;
                 }
                 anim.SetTrigger("Flag");

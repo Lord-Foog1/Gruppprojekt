@@ -60,7 +60,7 @@ public class LevelChecker : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Invoke("LoadNextLevel", 1.0f);
+                Invoke("LoadNextLevel",0f);
                 levelIsLoading = true;
             }
         }
