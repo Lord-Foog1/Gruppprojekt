@@ -34,7 +34,7 @@ public class MenuControler : MonoBehaviour
 
     public void HubLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
 
     public void MainMenu()
