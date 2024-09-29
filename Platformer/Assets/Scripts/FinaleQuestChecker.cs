@@ -41,7 +41,7 @@ public class FinaleQuestChecker : MonoBehaviour
                 //levelIsLoading = true;
                 hiddenDoor.SetActive(false);
             }
-            else
+            if (other.GetComponent<PlayerMovement>().collected < questGoal)
             {
                 dialogueBox.SetActive(true);
                 UnfinishedText.SetActive(true);
