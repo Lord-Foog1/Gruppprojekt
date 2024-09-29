@@ -9,16 +9,20 @@ public class LevelChecker : MonoBehaviour
     [SerializeField] private int requierment;
     [SerializeField] private int levelToLoad;
 
-    private Animator anim;
     private bool levelIsLoading = false;
-    private bool levelIsComplete = false;
     private bool accepted = false;
 
-    private void Start()
+    private void Update()
     {
-        anim = GetComponent<Animator>();
+        if (accepted)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Invoke("LoadNextLevel", 0f);
+                levelIsLoading = true;
+            }
+        }
     }
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -46,23 +50,12 @@ public class LevelChecker : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        accepted = false;
         if (other.CompareTag("Player") && !levelIsLoading)
         {
             dialogueBox.SetActive(false);
             finishedText.SetActive(false);
             UnfinishedText.SetActive(false);
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if(accepted)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Invoke("LoadNextLevel",0f);
-                levelIsLoading = true;
-            }
         }
     }
 }
