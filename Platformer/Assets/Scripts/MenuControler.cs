@@ -9,7 +9,7 @@ public class MenuControler : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(5);
     }
 
     public void QuitGame()
