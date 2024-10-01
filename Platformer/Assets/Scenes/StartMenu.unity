@@ -934,7 +934,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -100}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1266381392
 MonoBehaviour:
@@ -956,7 +956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE game
+  m_text: "K\xE4llarens Koruption"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
   m_sharedMaterial: {fileID: -4935591840518089945, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
@@ -983,7 +983,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.8
+  m_fontSize: 47.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1090,9 +1090,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Code: Kunskapstrening IT p\xE5 Youtube\nLevel Design: Oliver Nordlander\nCharacters,
-    Collectables and enemies:\nPixel Frog p\xE5 Itch.io\nMap Textures:\nSuperposition
-    Principle p\xE5 Unity asset store\nMusik: Abbe \"The Ab\" \"The D\" Durgut"
+  m_text: "Game by:\nOliver Nordlander\nHenry Grip\nAyoub Ayoub\nMusik:\nAbbe \"The
+    Ab\" \"The D\" Durgut\nKod:\nKunskapstrening IT p\xE5 Youtube\nTexture\nPixel
+    Frog p\xE5 Itch.io\nSuperposition Principle p\xE5 Unity asset store"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
   m_sharedMaterial: {fileID: -4935591840518089945, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
