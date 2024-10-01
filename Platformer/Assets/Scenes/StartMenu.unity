@@ -956,7 +956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "K\xE4llarens Koruption"
+  m_text: "K\xE4llarens Korruption"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
   m_sharedMaterial: {fileID: -4935591840518089945, guid: 1aabcdeaea7a1614e912044798a72bc2, type: 2}
